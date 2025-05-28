@@ -1,0 +1,150 @@
+# === OU Tanımları ===
+dn: ou=devs,dc=mycompany,dc=org
+objectClass: organizationalUnit
+ou: devs
+
+dn: ou=hr,dc=mycompany,dc=org
+objectClass: organizationalUnit
+ou: hr
+
+dn: ou=managers,dc=mycompany,dc=org
+objectClass: organizationalUnit
+ou: managers
+
+dn: uid=ahmet.kaya,ou=devs,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Ahmet Kaya
+sn: Kaya
+uid: ahmet.kaya
+userPassword: Ahmet123
+
+dn: uid=melis.kaya,ou=devs,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Melis Kaya
+sn: Kaya
+uid: melis.kaya
+userPassword: Melis123
+
+dn: uid=mert.turan,ou=devs,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Mert Turan
+sn: Turan
+uid: mert.turan
+userPassword: Mert123
+
+dn: uid=kaan.ozmen,ou=devs,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Kaan Özmen
+sn: Özmen
+uid: kaan.ozmen
+userPassword: Kaan123
+
+dn: uid=taha.arslan,ou=devs,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Taha Arslan
+sn: Arslan
+uid: taha.arslan
+userPassword: Taha123
+
+dn: uid=emir.ozkan,ou=devs,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Emir Özkan
+sn: Özkan
+uid: emir.ozkan
+userPassword: Emir123
+
+dn: uid=berk.erdem,ou=devs,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Berk Erdem
+sn: Erdem
+uid: berk.erdem
+userPassword: Berk123
+
+dn: uid=asli.yildiz,ou=devs,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Aslı Yıldız
+sn: Yıldız
+uid: asli.yildiz
+userPassword: Asli123
+dn: uid=ayse.demir,ou=hr,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Ayşe Demir
+sn: Demir
+uid: ayse.demir
+userPassword: Ayse123
+
+dn: uid=elif.yilmaz,ou=hr,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Elif Yılmaz
+sn: Yılmaz
+uid: elif.yilmaz
+userPassword: Elif123
+
+dn: uid=naz.karaca,ou=hr,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Naz Karaca
+sn: Karaca
+uid: naz.karaca
+userPassword: Naz123
+
+dn: uid=selin.akyol,ou=hr,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Selin Akyol
+sn: Akyol
+uid: selin.akyol
+userPassword: Selin123
+
+dn: uid=sude.bilgin,ou=hr,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Sude Bilgin
+sn: Bilgin
+uid: sude.bilgin
+userPassword: Sude123
+
+dn: uid=irem.cevik,ou=hr,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: İrem Çevik
+sn: Çevik
+uid: irem.cevik
+userPassword: Irem123
+dn: uid=mehmet.can,ou=managers,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Mehmet Can
+sn: Can
+uid: mehmet.can
+userPassword: Mehmet123
+
+dn: uid=omer.karaca,ou=managers,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Ömer Karaca
+sn: Karaca
+uid: omer.karaca
+userPassword: Omer123
+
+dn: uid=zeynep.kurt,ou=managers,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Zeynep Kurt
+sn: Kurt
+uid: zeynep.kurt
+userPassword: Zeynep123
+
+dn: uid=burak.kilic,ou=managers,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Burak Kılıç
+sn: Kılıç
+uid: burak.kilic
+userPassword: Burak123
+
+dn: uid=deniz.alp,ou=managers,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Deniz Alp
+sn: Alp
+uid: deniz.alp
+userPassword: Deniz123
+
+dn: uid=tuna.deniz,ou=managers,dc=mycompany,dc=org
+objectClass: inetOrgPerson
+cn: Tuna Deniz
+sn: Deniz
+uid: tuna.deniz
+userPassword: Tuna123
