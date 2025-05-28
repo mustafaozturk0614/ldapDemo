@@ -1,4 +1,3 @@
-# === OU Tanımları ===
 dn: ou=devs,dc=mycompany,dc=org
 objectClass: organizationalUnit
 ou: devs
@@ -66,6 +65,7 @@ cn: Aslı Yıldız
 sn: Yıldız
 uid: asli.yildiz
 userPassword: Asli123
+
 dn: uid=ayse.demir,ou=hr,dc=mycompany,dc=org
 objectClass: inetOrgPerson
 cn: Ayşe Demir
@@ -107,6 +107,7 @@ cn: İrem Çevik
 sn: Çevik
 uid: irem.cevik
 userPassword: Irem123
+
 dn: uid=mehmet.can,ou=managers,dc=mycompany,dc=org
 objectClass: inetOrgPerson
 cn: Mehmet Can
