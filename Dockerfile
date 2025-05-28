@@ -1,7 +1,7 @@
 FROM osixia/openldap:1.5.0
 
-ENV LDAP_ORGANISATION=MyCompany
-ENV LDAP_DOMAIN=mycompany.org
-ENV LDAP_ADMIN_PASSWORD=admin
+ENV LDAP_ORGANISATION="MyCompany" \
+    LDAP_DOMAIN="mycompany.org" \
+    LDAP_ADMIN_PASSWORD="admin"
 
-COPY bootstrap /container/service/slapd/assets/config/bootstrap/ldif/custom
+COPY bootstrap/users.ldif /container/service/slapd/assets/config/bootstrap/ldif/custom/users.ldif
