@@ -1,0 +1,13 @@
+version: '3'
+services:
+  openldap:
+    image: osixia/openldap:1.5.0
+    container_name: openldap-cloud
+    ports:
+      - "389:389"
+    environment:
+      - LDAP_ORGANISATION=MyCompany
+      - LDAP_DOMAIN=mycompany.org
+      - LDAP_ADMIN_PASSWORD=admin
+    volumes:
+      - ./bootstrap:/container/service/slapd/assets/config/bootstrap/ldif/custom
